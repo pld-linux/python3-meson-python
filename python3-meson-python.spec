@@ -25,7 +25,7 @@ BuildRequires:	python3-virtualenv >= 20.29
 BuildRequires:	python3-requests-mock
 %endif
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.714
+BuildRequires:	rpmbuild(macros) >= 2.044
 %if %{with doc}
 BuildRequires:	python3-tox
 %endif

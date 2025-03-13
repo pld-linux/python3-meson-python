@@ -3,7 +3,7 @@
 %bcond_without	tests	# unit tests
 
 %define		module	meson-python
-Summary:	Meson PEP 517 Python build backend 
+Summary:	Meson PEP 517 Python build backend
 # Name must match the python module/package name (as on pypi or in 'import' statement)
 Name:		python3-%{module}
 Version:	0.17.1
@@ -13,6 +13,7 @@ Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/m/meson-python/meson_python-%{version}.tar.gz
 # Source0-md5:	bf1299782f02e4bb590a437bd140fd12
 URL:		https://github.com/mesonbuild/meson-python
+BuildRequires:	patchelf >= 0.11.0
 BuildRequires:	python3-modules >= 1:3.2
 BuildRequires:	python3-build
 BuildRequires:	python3-installer

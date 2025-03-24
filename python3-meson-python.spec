@@ -29,6 +29,7 @@ BuildRequires:	rpmbuild(macros) >= 2.044
 %if %{with doc}
 BuildRequires:	python3-tox
 %endif
+Requires:	patchelf >= 0.11.0
 Requires:	python3-modules >= 1:3.2
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)

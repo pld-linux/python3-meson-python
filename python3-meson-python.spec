@@ -7,7 +7,7 @@ Summary:	Meson PEP 517 Python build backend
 # Name must match the python module/package name (as on pypi or in 'import' statement)
 Name:		python3-%{module}
 Version:	0.17.1
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/m/meson-python/meson_python-%{version}.tar.gz

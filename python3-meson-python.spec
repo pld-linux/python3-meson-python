@@ -7,12 +7,12 @@
 Summary:	Meson PEP 517 Python build backend
 Summary(pl.UTF-8):	Backend budowania Meson zgodny z PEP 517 dla Pythona
 Name:		python3-%{module}
-Version:	0.18.0
+Version:	0.22.1
 Release:	1
 License:	MIT
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/m/meson-python/meson_python-%{version}.tar.gz
-# Source0-md5:	b4d7f9ef6f09deb8dc8a7e5cbf16778e
+# Source0-md5:	afd1035a4c4116bead1338a15e3516f1
 URL:		https://github.com/mesonbuild/meson-python
 BuildRequires:	meson >= 1.2.3
 BuildRequires:	patchelf >= 0.11.0
